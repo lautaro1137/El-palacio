@@ -47,7 +47,8 @@ header {
 }
 
 .logo img {
-  width: 40px;
+  width: 60px;
+  border-radius: 50%;
 }
 .navbar {
   display: flex;
@@ -60,7 +61,7 @@ header {
   text-transform: uppercase;
 }
 .navbar a:hover {
-  color: #008148;
+  color: #fff;
   transition: 0.5s;
 }
 
@@ -109,19 +110,19 @@ header {
 }
 
 .home-text span {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
 }
 
 .home-text h1 {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   color: var(--main-color);
   font-weight: bolder;
 }
 .home-text h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
@@ -132,7 +133,7 @@ header {
   border: 2px solid #fff;
   border-radius: 40px;
   color: #ff6b6b;
-  font-weight: 800;
+  font-weight: 900;
 }
 .btn:hover {
   color: #fff;
@@ -142,26 +143,40 @@ header {
 .about {
   display: flex;
   flex-wrap: wrap;
-  background: #ffffff;
+  background: var(--main-color);
   gap: 1.5rem;
+  margin-top: 5px;
+  height: 100vh;
 }
 
 .about-img {
   flex: 1 1 17rem;
-  max-width: 500px;
-  border-radius: 20%;
+}
+
+.about-img img {
+  border: 5px solid black;
+  width: 40vw;
+  height: 50vh;
+  border-radius: 10%;
+  margin: 25% 0 50% -20%;
 }
 .about-text {
   flex: 1 1 17rem;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .about-text h2 {
-  font-size: 1.2rem;
-  color: var(--second-color);
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1.7rem;
+  border-bottom: 2px #000 solid;
+  text-align: center;
 }
 
 .about-text p {
   margin: 0.5rem 0 1rem;
+  color: #fff;
 }
 
 .heading {
@@ -296,12 +311,12 @@ header {
   top: 5%;
   right: 5%;
   font-size: 30px;
-  color: #202020;
+  color: #ffffff;
   cursor: pointer;
 }
 .ful-img img {
   width: 90%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .container {
